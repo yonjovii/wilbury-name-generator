@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wilbury Name Generator</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
     <div class="container">
         <h1>Wilbury Name Generator</h1>
         <p>Enter your first name to get your Wilbury pseudonym!</p>
         <input type="text" id="nameInput" placeholder="Enter your first name">
+
+        <!-- Customization options -->
+        <label for="letterSelect">Choose starting letter:</label>
+        <select id="letterSelect">
+            <option value="">Any Letter</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <!-- Add more options as needed -->
+        </select>
+
         <button onclick="generateName()">Generate Name</button>
         <p id="result"></p>
+
+        <!-- Sharing and download buttons -->
+        <button id="shareBtn">Share on Twitter</button>
+        <button id="downloadBtn">Download Certificate</button>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
 </body>
 </html>
