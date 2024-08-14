@@ -1,4 +1,4 @@
-// Updated list of possible Wilbury-style names
+// List of possible Wilbury-style names
 const wilburyNames = ["Jasper", "Buck", "Finn", "Riley", "Dexter", "Murphy", "Arlo", "Wesley", "Sawyer", "Hudson"];
 
 // Function to generate a Wilbury name based on the user's first name
