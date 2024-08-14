@@ -1,20 +1,20 @@
-/* Basic reset */
+/* Reset basic styles */
 body, h1, p, input, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
+/* Body styling to center content */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
     height: 100vh;
     margin: 0;
-    text-align: center;
+    text-align: center; /* Centers the text within the container */
 }
 
 /* Container styling */
