@@ -8,7 +8,7 @@ body, h1, p, input, button {
 /* Body styling with a background image */
 body {
     font-family: Arial, sans-serif;
-    background-image: url(https://github.com/yonjovii/wilbury-name-generator/blob/main/Traveling-Wilburys-Vol-1.jpg); /* Path to your background image */
+    background-image: url('https://github.com/yonjovii/wilbury-name-generator/blob/main/Traveling-Wilburys-Vol-1.jpg'); /* Path to your background image */
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
