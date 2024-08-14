@@ -5,21 +5,24 @@ body, h1, p, input, button {
     box-sizing: border-box;
 }
 
-/* Body styling to center content */
+/* Body styling with a background image */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url('https://github.com/yonjovii/wilbury-name-generator/blob/main/Traveling-Wilburys-Vol-1.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     display: flex;
-    justify-content: center; /* Horizontally centers the content */
-    align-items: center; /* Vertically centers the content */
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: 0;
-    text-align: center; /* Centers the text within the container */
+    text-align: center;
 }
 
 /* Container styling */
 .container {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
